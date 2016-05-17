@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}/*通配*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+
+}/*清除浮动*/
+
+.clearfix:after {
+    clear: both;
+}/*清除浮动*/
+
+a {
+	text-decoration: none;
+}/*清除下划线*/
+li{
+	list-style-type:none;
+}
+
+body{
+	font-size: 62.5%;
+
+}/*通配字体16px*/
+
+
+
+/*---头部---*/
+.shang{
+	width: 100%;
+	height: 2em;
+	background-color: #0288d1;
+}
+
+.kuang{
+	width: 100%;
+	background-color: #009df3;
+	padding-bottom: 2em;
+ }
+ .nav {
+ 	padding-top: 0.5em;
+ 	position: static;
+ 	height: 3em;
+ }
+.icon-reorder{
+	margin-left: 1em;
+	display: block;
+	transition:all 1s;
+	
+ }
+ .icon-list{
+	margin-left: 1em;
+	transform-origin:50% 50%;/*调整中心基点*/
+	-ms-transform-origin:50% 50%; /* IE 9 */
+	-webkit-transform-origin:50% 50%; /* Safari and Chrome */
+	-moz-transform-origin:50% 50%; /* Firefox */
+	-o-transform-origin:50% 50%; /* Opera */
+ }
+ .icon-shopping-cart{
+ 	float: right;
+ 	margin-right: 1em;
+ }
+ .icon-user{
+ 	float: right;
+ 	margin-right: 1em;
+
+ }
+ .logo{
+ 	width: 40%;
+ 	display: block;
+ 	margin-left: 26%;
+
+}
+
+
+.pic{
+	position: absolute;
+	right:30.5%;
+	top:.2em;
+}
+
+.form-wrapper{
+		text-align: center;
+		margin-top:1.5em;
+		position: relative;
+		font-size: 1.2em;
+		
+}
+.form-wrapper input{
+	 width: 50%;
+	 line-height: 1.5em;
+	 border:solid 1px #b5b5b5;
+}
+.form-wrapper button{
+	width: 7%;
+	
+}
+
+.dh{
+	width: 73%;
+	height: 80%;
+	position: absolute;
+	z-index: 22;
+	background-color: #0288d1;
+	color: #fff;
+	padding-top: 5%;
+	padding-left: 5%;
+	display:none; 
+}
+.dh h2{
+	font-size: 1.6em;
+	color: #fff;
+	padding-bottom: 2%;
+	padding-top: 5%;
+}
+.dh ul a{
+	font-size: 1em;
+	color: #fff;
+}
+.dh ul span{
+	margin-right: 5%;
+	padding-bottom: 4%;
+	
+}
+
+
+/*---头部---*/
+
+
+.lan{
+	width: 100%;
+	margin-top: 1em;
+}
+
+
+
+.lantiao{
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	height: 1.3em;
+	background: #48beff;
+
+
+}
+.icon-double-angle-right{
+	float: right;
+	padding-right: 2%;
+	line-height: 1.4em;
+}
+
+.jianbian{
+	width: 100%;
+	height: 7.5em;
+	background: -webkit-linear-gradient(left, #f0f1f2 , #cacbd0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #f0f1f2 , #cacbd0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #f0f1f2 , #cacbd0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #f0f1f2 , #cacbd0); /* 标准的语法（必须放在最后）*/
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.jianbian img{
+	
+	margin-left:1.7em;
+
+
+}
+.jianbian ul{
+	float: right;
+}
+.jianbian ul h3{
+	font-size: 1.2em;
+	color: #2c2c2c;
+	
+	
+	
+}
+.jianbian ul li{
+	padding-bottom: 0.1em;
+}
+.jianbian ul li a{
+	font-size: 0.8em;
+	color: #414142;
+}
+.jianbian li span{
+	color: #ff0000;
+}
+.jiaqian{
+	margin-top: 0.3em;
+}
+.jianbian .jiaqian a{
+	font-size: 1.2em;
+	color: #ff0000;
+	padding-top: 0.3em;	
+	line-height: 1.5em;
+}
+.jianbian .jiaqian h4{
+	width: 4em;
+	height: 1.5em;
+	background-color: #ff0000;
+	float: right;
+	margin-right: 1.5em;
+	border-radius: 10%/10%;/*第一个50%是宽度的一半；第二个50%是高度一半;这是制作椭圆效果；圆形只需要一个50%；同时代表宽高的一半*/
+	margin-left: 0.5em;
+}
+.jianbian .jiaqian span{
+	color: #fff;
+	line-height: 2em;
+	font-size: 0.8em;
+	padding-left: 0.5em;
+}
+
+
+
+
+
+/*bottom*/
+.dibu{
+	
+	width: 100%;
+	height: 5em;
+	background-color: #009df3;
+	margin-top: 1em;
+}
+
+.dibu p a{
+	color: #fff;
+	font-size: 0.8em;
+}
+.dibu p{
+	text-align: center;
+	}
+.dibu .lu{
+	padding-top: 0.8em;
+	
+}
+
+
+
+@media ( min-width:768px){
+	
+.quanbu { display: none
+ 
+}
+
+.da
+{
+	display: block;
+}
+
+}
+
+
+@media ( max-width:768px){
+	
+.da
+{
+	display: none;
+}
+
+.quanbu { display: block;
+ 
+}
+
+}
