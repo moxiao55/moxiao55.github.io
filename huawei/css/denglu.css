@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}/*通配*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+
+}/*清除浮动*/
+
+.clearfix:after {
+    clear: both;
+}/*清除浮动*/
+
+
+
+a{
+	text-decoration: none;
+	    color: #1e1e1e;
+}
+ul{
+	list-style: none;
+}
+
+body{
+	 background: #EAEAF1;
+	 font-family: Helvetica,
+	 Arial,
+	 "Hiragino Sans GB",
+	 "Microsoft Yahei",
+	 "微软雅黑",
+	 STHeiti,
+	 "华文细黑",
+	 sans-serif;
+	 font-size: 12px;
+	 margin: 0 auto;
+}
+
+/*---------header------------*/
+.logol{
+	height: 150px;
+	background-color: #3bb7fb;
+}
+
+
+/*---------header------------*/
