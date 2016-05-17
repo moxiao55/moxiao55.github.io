@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}/*通配*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+
+}/*清除浮动*/
+
+.clearfix:after {
+    clear: both;
+}/*清除浮动*/
+
+a {
+	text-decoration: none;
+}/*清除下划线*/
+li{
+	list-style-type:none;
+}
+
+body{
+	font-size: 62.5%;
+
+}/*通配字体16px*/
+
+
+
