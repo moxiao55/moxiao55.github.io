@@ -317,7 +317,7 @@ div.jqZoomPup {
 }
 .neicun a{
 	padding: 5px 10px;
-	border: 1px #cccccc solid;
+	border: 1px #db0505 solid;
 }
 .zhishi{
 	padding-top: 20px;
@@ -332,6 +332,11 @@ div.jqZoomPup {
 }
 .quan{
 	padding-right:5px; 
+}
+.quan3 a{
+	border: 1px #db0505 solid;
+	padding-right: 5px;
+	padding: 5px 10px;
 }
 
 .yanse{
@@ -354,6 +359,7 @@ div.jqZoomPup {
 }
 /*切换样式*/
 .quan2{
+	margin-right: 5px;
 	border: 1px #db0505 solid;
 	padding-right: 5px;
 }
