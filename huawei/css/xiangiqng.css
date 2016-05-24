@@ -352,6 +352,12 @@ div.jqZoomPup {
 	border: 1px #cccccc solid;
 	margin-right: 5px;
 }
+/*切换样式*/
+.quan2{
+	border: 1px #db0505 solid;
+	padding-right: 5px;
+}
+
 .shuliang{
 	padding-top: 40px;
 	height: 25px;
