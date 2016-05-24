@@ -20,9 +20,14 @@
   </script>
   <script>
     $(function(){
-        $(".quan2").click(function(){
-          $(".quan2").
-        })
+      $(".quan1").click(function(){
+        $(".yanse ul li").removeClass("quan2");
+        $(this).addClass("quan2");
+      })
+      $(".quan").click(function(){
+        $(".zhishi ul li").removeClass("quan3");
+        $(this).addClass("quan3");
+      })
     })
   </script>
 </head>
@@ -112,25 +117,25 @@
         <div class="zhishi">
           <ul>
             <li>选择制式：</li>
-            <li class="quan"><a href="">全网通版</a></li>
-            <li class="quan"><a href="">双4G版</a></li>
-            <li class="quan"><a href="">电信版</a></li>
-            <li class="quan"><a href="">移动版</a></li>
+            <li class="quan quan3"><a>全网通版</a></li>
+            <li class="quan"><a>双4G版</a></li>
+            <li class="quan"><a>电信版</a></li>
+            <li class="quan"><a>移动版</a></li>
           </ul>
         </div>
         <div class="yanse">
           <ul>
             <li>选择颜色：</li>
-            <li class="quan2 class="quan1""><img src="images/qhxiaotu1.jpg" alt="">暗夜灰</li>
+            <li class="quan1 quan2" ><img src="images/qhxiaotu1.jpg" alt="">暗夜灰</li>
             <li class="quan1"><img src="images/qhxiaotu2.jpg" alt="">破晓银</li>
             <li class="quan1"><img src="images/qhxiaotu3.jpg" alt="">落日金</li>
           </ul>
         </div>
         <div class="shuliang">
           购买数量：
-          <a class="icon-minus" href=""></a>
+          <a class="icon-minus"></a>
           <input class="text" type="text" value="1" >
-          <a class="icon-plus" href=""></a>
+          <a class="icon-plus" ></a>
         </div>
         <div class="gouwuche">
           <a href="" class="jiaru">加入购物车</a>
@@ -157,7 +162,7 @@
           <li><a href="">售后服务</a></li>
         </ul>
         <div class="xqimg">
-          <img src="images/01.jpg" alt="">
+          <img src="images/xiangqigntu/01.jpg" alt="">
           <img src="images/02.jpg" alt="">
           <img src="images/03.jpg" alt="">
           <img src="images/04.jpg" alt="">
