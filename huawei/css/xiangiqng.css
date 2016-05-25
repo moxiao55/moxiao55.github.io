@@ -454,7 +454,21 @@ div.jqZoomPup {
 	color: #666;
 	margin-top: 12px;
 }
-
+.rxbdshj b{
+	color: #ff0000;
+}
+.rxbdshj .t01{
+	width: 23px;
+	height: 23px;
+	background:url(../images/paiming.jpg) scroll no-repeat; 
+	position: absolute;
+}
+.rxbdshj .t02{
+	width: 23px;
+	height: 23px;
+	background:url(../images/paiming.jpg) scroll no-repeat; 
+	position: absolute;
+}
 
 /*---商品详情---*/
 .xq{
