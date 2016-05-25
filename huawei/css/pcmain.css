@@ -88,13 +88,13 @@ h1, h2, h3,{
 
  }
 
-.logo{
+.logo1{
 	height:10em;
 	background-color: #09a8ff;
 	position: relative;
 
 }
-.logo img{
+.logo1 img{
 	position: absolute;
 	left:8.3em;
 	top:1.5em;
