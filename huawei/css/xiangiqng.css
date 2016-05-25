@@ -457,6 +457,10 @@ div.jqZoomPup {
 .rxbdshj b{
 	color: #ff0000;
 }
+.rxbdshj a:hover{
+	text-decoration:underline;
+
+}
 .rxbdshj .t01{
 	height: 23px;
 	width: 23px;
@@ -493,6 +497,7 @@ div.jqZoomPup {
 	background:url(../images/xiangqigntu/shuliang6.jpg) scroll no-repeat; 
 	position: absolute;
 }
+
 
 /*---商品详情---*/
 .xq{
