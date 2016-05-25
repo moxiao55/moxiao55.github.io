@@ -460,17 +460,38 @@ div.jqZoomPup {
 .rxbdshj .t01{
 	height: 23px;
 	width: 23px;
-	background:url(../images/paiming.jpg) scroll no-repeat; 
+	background:url(../images/xiangqigntu/shuliang1.jpg) scroll no-repeat; 
 	position: absolute;
-
 }
-
 .rxbdshj .t02{
 	height: 23px;
 	width: 23px;
-	background:url(../images/paiming.jpg) scroll no-repeat; 
+	background:url(../images/xiangqigntu/shuliang2.jpg) scroll no-repeat; 
 	position: absolute;
-
+}
+.rxbdshj .t03{
+	height: 23px;
+	width: 23px;
+	background:url(../images/xiangqigntu/shuliang3.jpg) scroll no-repeat; 
+	position: absolute;
+}
+.rxbdshj .t04{
+	height: 23px;
+	width: 23px;
+	background:url(../images/xiangqigntu/shuliang4.jpg) scroll no-repeat; 
+	position: absolute;
+}
+.rxbdshj .t05{
+	height: 23px;
+	width: 23px;
+	background:url(../images/xiangqigntu/shuliang5.jpg) scroll no-repeat; 
+	position: absolute;
+}
+.rxbdshj .t06{
+	height: 23px;
+	width: 23px;
+	background:url(../images/xiangqigntu/shuliang6.jpg) scroll no-repeat; 
+	position: absolute;
 }
 
 /*---商品详情---*/
