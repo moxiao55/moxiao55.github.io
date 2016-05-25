@@ -450,8 +450,14 @@ div.jqZoomPup {
 	float: left;
 	line-height: 50px;
 	padding: 0px 50px;
+	border-bottom: 1px #cccccc solid;
 	border-right: 1px #cccccc solid;
 	background-color: #fff;
+}
+.xq .diwd{
+	border-bottom: 0px;
+	border-top: 1px #ff0000 solid;
+	color:#ff0000;
 }
 .xq ul li a{
 	font-size: 14px;
