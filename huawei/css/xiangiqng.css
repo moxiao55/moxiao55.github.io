@@ -435,6 +435,16 @@ div.jqZoomPup {
 	font-size: 14px;
 	color: #333333;
 }
+.rxbdshj{
+	width: 220px;
+	height: 80px;
+	background-color: #fff;
+	border: 1px #cccccc solid;
+	border-top: 0px;
+}
+.rxbgshj img{
+	-top: 10px;
+}
 
 
 /*---商品详情---*/
