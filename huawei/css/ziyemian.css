@@ -153,6 +153,9 @@ body{
 	background-color: #009df3;
 
 }
+.daohang ul li span{
+	color: #ff0000;
+}
 .daohang ul li {
 	float: left;
 	line-height: 40px;
