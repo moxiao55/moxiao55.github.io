@@ -26,7 +26,7 @@ ul{
 }
 
 body{
-	 background: #EAEAF1;
+	 background:  #EAEAF1;
 	 font-family: Helvetica,
 	 Arial,
 	 "Hiragino Sans GB",
@@ -40,10 +40,43 @@ body{
 }
 
 /*---------header------------*/
-.logol{
-	height: 150px;
-	background-color: #3bb7fb;
+.dbg{
+	width: 1349px;
+	height:600px;
+
 }
+
+.imggg{
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+.mainn{
+	width: 1349px;
+	height: 529px;
+	margin-top: 25px;
+	background:url(../images/dlbg.jpg) no-repeat;
+	background-position:center center;
+	position: relative;
+
+}
+.mainn .dlzc{
+	width: 440px;
+	height: 430px;
+	background-color: #fff;
+	position: absolute;
+	left: 760px;
+	top: 80px;
+}
+.neirong{
+	padding-left: 50px;
+
+}
+.neirong h1{
+	padding-top: 20px;
+	color: #EA5E00;
+}
+
 
 
 /*---------header------------*/

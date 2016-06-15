@@ -28,10 +28,13 @@ body{
 	 font-size: 12px;
 }
 
-
+.heaber{
+	width: 1366px;
+	margin: 0 auto;
+}
 .ding{
 	height: 30px;
-	background-color: #3bb7fb;
+	background-color: #3bb7fb ;
 	
 }
 .SR ul li{
@@ -80,7 +83,7 @@ body{
 	border: 3px #ff0000 solid;
 	position: relative;
 	top:18px;
-	margin-left: 150px;
+	margin-left: 110px;
 }
 .ssn{
 	width: 60px;
@@ -136,6 +139,9 @@ body{
 	height: 40px;
 	background-color: #009df3;
 
+}
+.daohang ul li span{
+	color: #ff0000;
 }
 .daohang ul li {
 	float: left;
